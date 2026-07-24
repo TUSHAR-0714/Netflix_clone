@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.new-to-netflix-button{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background: var(--offer, linear-gradient(90deg, var(--Violet-violet-600, #5c32bf) 0%, var(--Violet-violet-600, #5c32bf) 20%, var(--Red-red-500, #e50914) 100%));
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.full-page {
+    width: 100%;
+    min-height: 100vh; /* Covers 100% of the viewport height */
+    
+    /* Prevents top button from overlapping content inside full-page */
+    padding-top: 50px; 
+    
+}    
